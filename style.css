@@ -1,0 +1,126 @@
+/* Impostazioni generali */
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #00153c; /* Blu scuro */
+}
+
+/* Stile dell'intestazione */
+header {
+    background-color: #00153c;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Stile del menu di navigazione */
+nav {
+    background-color: #00153c;
+    text-align: center;
+    padding: 30px;
+    background-color: #4268b0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #00153c;
+    
+}
+
+/* Stile della pagina delle lezioni */
+main {
+    text-align: center;
+}
+
+.lesson-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 78px;
+}
+
+
+.lesson-list li {
+    margin: 10px 0;
+}
+
+.lesson-list li a {
+    text-decoration: none;
+    color: #00153c;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.lesson-list li a:hover {
+    color: #4268b0;
+}
+
+img {
+    width: 100vw;
+}
+
+/* Stile della sezione contatti */
+.contacts {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contacts h2 {
+    color: #00153c;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contacts ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.contacts li {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #00153c;
+}
+
+.contacts a {
+    color: #00153c;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+
+/* Stile del footer */
+footer {
+    background-color: #d4e3ff;
+    color: #00153c;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
